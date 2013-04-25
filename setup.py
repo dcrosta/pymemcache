@@ -9,6 +9,7 @@ setup(
     author_email = 'charles@pinterest.com',
     packages = find_packages(),
     setup_requires = ['nose>=1.0'],
+    test_suite='nose.collector',
     description = 'A comprehensive, fast, pure Python memcached client',
     long_description = open('README.md').read(),
     license = 'Apache License 2.0',
